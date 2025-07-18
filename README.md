@@ -1,20 +1,20 @@
-# Weather in Kobe – Exploratory & Predictive Analytics
-A hands‑on Python + PySpark project built with an open Kaggle dataset
+# Weather in Kobe – Exploratory & Predictive Analytics
+*A hands‑on Python + PySpark project built with an open Kaggle dataset*
 
-1. Project Overview
-This repository demonstrates a full data‑analytics workflow using daily weather observations from Kobe, Japan.
-You will walk through – and be able to reproduce – the journey from raw CSV files to:
+## 1. Project Overview
+This repository walks through a complete data‑analytics workflow using daily weather observations from **Kobe, Japan**.  
+You can reproduce each step, moving seamlessly from raw CSV files to actionable insights:
 
-  1.Clean & EDA – quick data‑quality profile and visual summary
+1. **Clean & EDA** – quick data‑quality profiling and visual summaries  
+2. **Seasonality Analysis** – monthly temperature / precipitation cycles  
+3. **Extreme‑Weather Detection** – hottest, wettest, and record‑breaking days  
+4. **Long‑term Trend Lines** – year‑on‑year climate shifts since the 1990s  
+5. **Next‑Day Weather Models** – logistic & regression baselines in Spark ML  
+6. **Lifestyle Recommender** – rule‑based *Laundry‑Day* / *Hiking‑Day* index  
 
-  2.Seasonality Analysis – monthly temperature / precipitation cycles
+The codebase is intentionally split into two complementary paths:
 
-  3.Extreme‑Weather Detection – hottest, wettest, and record‑breaking days
+* **Pandas‑only notebooks** – ideal for local laptops or lightweight analyses.  
+* **Apache Spark notebooks & scripts** – suited for larger‑scale runs or cloud platforms such as **Databricks Community Edition**.
 
-  4.Long‑term Trend Lines – year‑on‑year climate shifts since 1990s
-
-  5.Next‑Day Weather Models – logistic & regression baselines in Spark ML
-
-  6.Lifestyle Recommender – rule‑based “Laundry‑Day / Hiking‑Day” index
-
-The code is intentionally split into a pandas‑only path (for laptops) and an Apache Spark path (for larger‑scale or cloud notebooks such as Databricks Community Edition).
+---
