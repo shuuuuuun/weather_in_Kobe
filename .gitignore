@@ -1,0 +1,8 @@
+# environment variables
+.env
+.venv
+
+# Data directories
+.\data\raw
+.\data\processed
+
