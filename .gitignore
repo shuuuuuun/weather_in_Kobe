@@ -6,3 +6,6 @@
 .\data\raw
 .\data\processed
 
+# python cache
+__pycache__/
+*.pyc
